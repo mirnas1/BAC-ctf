@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Challenge</title>
+</head>
+<body>
+    <h1>Broken Access Control CTF</h1>
+    <p>Can you find the hidden flag?</p>
+
+    <form id="ctf-form">
+        <input type="text" id="flag" placeholder="Enter the flag" required>
+        <!-- only admins know the flag-->
+        <button type="button" onclick="checkFlag()">Submit</button>
+    </form>
+    <p id="result"></p>
+
+    <div class="image-container">
+        <p>hehehe</p>
+        <img src="https://i.pinimg.com/736x/b0/70/97/b0709749013ad877d25592f9c65e1b8a.jpg" alt="A funny security meme or image">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
